@@ -105,9 +105,7 @@ let soma2 = 0
 
 for(let i = 0; i< receita.length;i++){
     soma += receita[i].valor
-}
-
-for(let i = 0; i< receita.length;i++){
     soma2 += receita[i].gorjeta
 }
+
 console.log(soma + soma2)

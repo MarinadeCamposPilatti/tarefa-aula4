@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6a7d343408c5bfffe96b00e92ad40f632271b28
 let receita = [
     {'valor': 87, 'gorjeta': 8.7},
     {'valor': 405, 'gorjeta': 40.5},
@@ -106,9 +109,16 @@ let soma2 = 0
 
 for(let i = 0; i< receita.length;i++){
     soma += receita[i].valor
+<<<<<<< HEAD
 }
 
 for(let i = 0; i< receita.length;i++){
     soma2 += receita[i].gorjeta
 }
 console.log(soma + soma2)
+=======
+    soma2 += receita[i].gorjeta
+}
+
+console.log(soma + soma2)
+>>>>>>> b6a7d343408c5bfffe96b00e92ad40f632271b28
